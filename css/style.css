@@ -92,6 +92,26 @@ header a:hover {
     line-height: 2;
 }
 
+/* SUBHERO */
+.page-sub .hero-policy {
+    background-color: black;
+    background-image: url(../IMG/main_policy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.subhero {
+    text-align: center;
+}
+
+.subhero h1{
+    font-size: 5em;
+    background-color: rgba(0, 0, 0, 0.303);
+    padding: 3em 0;
+    margin: 0; 
+    color: white;
+}
+
 /* CONTENT */
 .content {
     background-color: #fcf7f2;
@@ -102,6 +122,13 @@ header a:hover {
     display: flex;
     justify-content: space-between;
     margin-bottom: 4em;
+    padding: 10px 150px;
+}
+
+.space{
+    width: 5000px;
+    height: 100px;
+    display: inline-block;
 }
 
 .row img {
@@ -167,6 +194,50 @@ td.title {
     padding-left: 2em;
 }
 
+.searchbar input[type=text]{
+    float: right;
+    padding: 6px;
+    border-color: #9ec17c;
+    margin-top: 8px;
+    margin-right: auto;
+    font-size: 17px;
+    width: 30%;
+    border-radius: 25px;
+    border: 2px solid #9ec17c;
+    
+}
+
+.searchbar input[type=text]{
+    position: relative;
+    width: 30;
+}
+
+/* Pagination links*/
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color.10s;
+    
+    /* Center vertically */
+    position: relative;
+    top: 50%;
+    left: 40%;
+}
+
+/*Style the active/current link*/
+.pagination a.active {
+    background-color: white;
+    color:black;
+    font-weight: 800;
+}
+
+/* Add a grey background color on mouse-over*/
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+
 /* BUTTON */
 .button {
     display: inline-block;
@@ -181,6 +252,16 @@ td.title {
 
 .button:hover {
     background-color: #658446;
+}
+.bigbutton {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    background-color:rgb(38, 27, 27);
+    padding: 1.5em 7em;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 /* FOOTER */
